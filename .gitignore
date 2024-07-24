@@ -1,0 +1,9 @@
+node_modules/
+.cpcache/
+.clj-kondo/
+.lsp/
+resources/public/css/
+target/
+
+.DS_Store
+.nrepl-port
