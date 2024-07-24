@@ -1,0 +1,10 @@
+{
+  "name": "echo my ip",
+  "scripts": {
+      "watch": "npx tailwindcss -i ./src/js/input.css -o ./resources/public/css/styles.css --watch",
+      "build": "npx tailwindcss -i ./src/js/input.css -o ./resources/public/css/styles.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.5"
+  }
+}
