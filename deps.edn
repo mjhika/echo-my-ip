@@ -2,7 +2,10 @@
  ["src/clj" "resources"]
 
  :deps
- {;; html gen
+ {;; add clojure version
+  org.clojure/clojure {:mvn/version "1.11.3"}
+
+  ;; html gen
   hiccup/hiccup {:mvn/version "2.0.0-RC3"}
 
   ;; ring-core, server and router
