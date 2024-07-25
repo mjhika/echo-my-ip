@@ -25,7 +25,7 @@
            :target-dir classes ; for b/copy-dir
            :target     target
            :path       target ; for b/delete
-           :src-dirs   ["src"]
+           :src-dirs   ["src/clj"]
            :main       'main)))
 
 (defn uber [opts]
